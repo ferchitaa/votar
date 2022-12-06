@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* viewport */
+  width: 100vw;
+  height: 100vh;
+  background-color: #d87093;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gold;
+  background-color: #3c8db3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container > h1 {
+  margin-top: 0.5rem;
+  color: #fff;
+}
+
+.container > hr {
+  width: 90%;
+  margin-bottom: 0.5rem;  
+}
+
+fieldset {
+  width: 90%;
+  height: 2rem;
+  margin: 0.5rem;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+fieldset > label {
+  color: #fff;
+  margin-right: 1rem;
+}
+
+fieldset > input {
+  margin-top: 0.4rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  background-color: white;
+  padding-left: 0.5rem;
+  /* color: #dc154d; */
+}
+
+fieldset > input::placeholder {
+  color: #35a1a3;
+  
+}
+
+button {
+  margin-top: 1rem;
+  width: 12rem;
+  height: 3rem;
+  border-radius: 15px;
+  border: groove 4px #ac24d2dd;
+  cursor: pointer;
+  background-color: #1a629d;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+#p-result {
+  color: #fff;
+  font-size: 1.4rem;
+  text-align: center;
+}
